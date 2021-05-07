@@ -1,0 +1,20 @@
+{
+  "extends": [
+    "galex",
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "import/no-default-export": 0,
+    "react/function-component-definition": 0,
+    "no-underscore-dangle": 0,
+    "@typescript-eslint/ban-ts-comment": 0,
+    "@typescript-eslint/consistent-type-definitions": 1,
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "plugins": [
+    "react",
+    "react-hooks"
+  ]
+}

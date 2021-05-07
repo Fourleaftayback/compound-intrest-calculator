@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 65%;
+   //font-size: 62.5%; // ? Default
+
+  @media all and (min-width: 1281px) and (max-width: 1400px) {
+    font-size: 57%;
+    //font-size: 60%; // ? Peri
+  }
+  @media all and (min-width: 1025px) and (max-width: 1280px) {
+    font-size: 54.5%;
+    //font-size: 60%; // ? Peri
+  }
+  @media all and (min-width: 769px) and (max-width: 1024px) {
+    font-size: 47%;
+    //font-size: 54%; // ? Peri
+  }
+  @media all and (min-width: 481px) and (max-width: 768px) {
+    font-size: 37%;
+    //font-size: 44%; // ? Peri
+  }
+  @media all and (max-width: 480px) {
+    font-size: 30%;
+    //font-size: 32%;
+  }
+}
+
+body {
+  box-sizing: border-box;
+  font-family: $theme-font;
+  font-weight: 400;
+  line-height: 1.7;
+}

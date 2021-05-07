@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+//? Configuration and helpers
+@import 'globals/variables';
+
+//? Vendor
+@import 'vendors/foundation.min';
+
+//? Base
+@import 'base/reset';
+@import 'base/app';
+@import 'base/media-querries';
+@import 'base/animation';
